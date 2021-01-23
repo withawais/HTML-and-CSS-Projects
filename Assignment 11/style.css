@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    height: 350px;
+    width: 250px;
+    box-shadow: 2px 2px 5px rgb(47, 47, 47);
+    margin: 40px;
+    
+}
+
+.card:hover {
+    box-shadow: 4px 4px 16px rgb(78, 78, 78);
+}
+
+.card__img {
+    width: 250px;
+    height: 150px;
+}
+
+.card__title {
+    margin: 15px 10px 10px 15px;
+}
+
+.card__discription {
+    margin: 15px 10px 10px 15px; 
+}
+
+.card__button {
+    margin: 15px 0px 0px 15px; 
+    height: 30px;
+    width: 100px;
+    background-color: rgb(216, 216, 213);
+    border: 1px solid black;
+}
+
+.card__button:hover {
+    box-shadow: 2px 2px 12px rgb(78, 78, 78);
+    background-color: rgb(250, 250, 246);
+}

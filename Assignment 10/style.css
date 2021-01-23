@@ -1,0 +1,28 @@
+body {
+  margin: 50px;
+  font-family: sans-serif;
+}
+.heading {
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  color: rgb(27, 23, 23);
+  font-weight: bolder;
+}
+.sub__heading {
+  letter-spacing: 0.2em;
+  color: rgb(27, 27, 27);
+  text-shadow: 1px 1px 4px #272727;
+}
+.para {
+  font-family: sans-serif;
+  font-size: 19px;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  line-height: 1.9em;
+}
+.cloud:first-letter {
+  font-size: 200%;
+}
